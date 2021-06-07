@@ -1,0 +1,230 @@
+/* css styling  */
+
+/* header Css */
+
+body {
+  font-family: 'Calibri', sans-serif !important
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  color: white;
+}
+.mini-header {
+  font-size: 17px;
+  color: #f5f5f5;
+  text-align: center;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-youtube {
+  color: white;
+}
+
+.custom-reg, .custom-reg:hover {
+  text-decoration: none;
+  color: white;
+  /* float: right; */
+}
+
+/* second navbar */
+
+.main-header {
+  background-color: white;
+}
+
+.header-first {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.store {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 0.25rem;
+  color: black;
+}
+/* search button */
+
+.custom-search,
+.custom-search:focus {
+  background-color: #333;
+  box-shadow: none;
+  color: white;
+  border: 0px;
+  /* border-radius: 0px; */
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.custom-search-button {
+  border: 0px;
+  border-radius: 0px;
+  margin: 0;
+}
+
+/* header-cart */
+
+.header-cart {
+  height: 99px;
+  line-height: 65px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.icon li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+.fa-shopping-cart {
+  color: black;
+}
+.fa-opera {
+  color: black;
+}
+
+/* slider */
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 0;
+}
+
+.custom-inner-carousel {
+  max-height: 500px;
+}
+
+/* information */
+
+.body_info {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 35px;
+  font-size: 12px;
+  color: #f5f5f5;
+  background: #333333;
+}
+
+.custom-computer-card{
+  z-index: -1;
+}
+
+
+
+.custom-star {
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+  border: none;
+  text-decoration: none;
+}
+.checked {
+  color: orange;
+}
+.custom-inner {
+  width: 100%;
+}
+.custom-info {
+  margin: 0;
+  padding: 0;
+  line-height: 17px;
+}
+.custom-selling {
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.custom-section-title {
+  font-size: 30px;
+  font-weight: medium;
+  color: black;
+}
+
+.custom-cart {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.custom-brand {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.custom-offer {
+  text-align: center;
+  padding: 10px;
+}
+
+.custom-shoes {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.custom-foot,
+.custom-periferals {
+  text-align: center;
+}
+
+.custom-design {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+
+.custom-officeInfo {
+  text-align: end;
+}
+.custom-companyBrand {
+  list-style-type: none;
+}
+.fa-envelope {
+  color: gold;
+}
+
+/* .envelope {
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+} */
+
+
+/* Footer CSS */
+
+.custom-footer-content ul li {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.custom-footer-content ul{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-content-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+

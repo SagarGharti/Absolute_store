@@ -1,0 +1,10 @@
+@media (max-width: 770px) {
+  header {
+    position: static;
+  }
+}
+@media (max-width: 575px) {
+  header {
+    position: static;
+  }
+}
